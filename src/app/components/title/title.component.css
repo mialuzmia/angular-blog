@@ -1,0 +1,12 @@
+.container__title h1{
+	color: white;
+	padding: .5rem 0rem;
+	font-size: 8rem;
+   display: flex;
+	justify-content: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container__title hr{
+	margin: .7rem 0rem;
+}

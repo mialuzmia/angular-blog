@@ -1,0 +1,20 @@
+nav{
+	display: flex;
+	justify-content: center;
+}
+
+.container__articles{
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	gap: 2rem;
+	
+}
+
+.articles__main{
+	width: 45%;
+}
+.articles__others{
+width: 40%;
+}

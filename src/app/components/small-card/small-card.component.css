@@ -1,0 +1,22 @@
+.container__small-card{
+	display: flex;
+	gap: 1.5rem;
+	margin-bottom: 1.2rem;
+}
+
+.small-card__photo a img{
+	width: 15rem;
+}
+
+.small-card__title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.small-card__title h2 a{
+	padding-right: 1rem;
+	font-size: 1.3rem;
+}
+.small-card__division{
+	margin: 1rem 0;
+}
