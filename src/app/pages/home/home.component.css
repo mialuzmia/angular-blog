@@ -1,7 +1,3 @@
-nav{
-	display: flex;
-	justify-content: center;
-}
 
 .container__articles{
 	margin-top: 2rem;
@@ -13,7 +9,7 @@ nav{
 }
 
 .articles__main{
-	width: 45%;
+	width: 40%;
 }
 .articles__others{
 width: 40%;
