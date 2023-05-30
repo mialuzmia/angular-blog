@@ -11,6 +11,9 @@
 	</div>
 	<div class="content__description">
 		<a [routerLink]="['']"> << VOLTAR</a>
-		<p>{{ contentDescription }}</p>
+		<p *ngFor="let line of contentDescription">{{ line }}</p>
 	</div>
+
 </div>
+
+

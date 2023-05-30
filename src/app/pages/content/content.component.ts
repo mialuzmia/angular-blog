@@ -9,26 +9,26 @@ import { dataFake } from 'src/app/data/dataFake';
 export class ContentComponent implements OnInit {
 	contentCover: string = ''
 	contentTitle: string = ''
-	contentDescription: string = ''
+	contentDescription: string[] = []
 
 	private id:string | null = '0'
   constructor(
 	private route:ActivatedRoute
 	) {
-	
+
    }
 
   ngOnInit(): void {
-	this.route.paramMap.subscribe(value => 
+	this.route.paramMap.subscribe(value =>
 		this.id = value.get('id'))
 		this.setValuesToComponent(this.id)
   }
 
   setValuesToComponent(id:string | null){
 	const result = dataFake.filter(article => article.id === id)[0]
-	
+
 	this.contentCover = result.photo
 	this.contentTitle = result.title
-	this.contentDescription = result.description
+	this.contentDescription = result.description.split('\n')
   }
 }

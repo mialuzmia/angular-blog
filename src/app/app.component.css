@@ -2,3 +2,13 @@ nav{
 	display: flex;
 	justify-content: center;
 }
+.container__footer{
+	width: 100%;
+	display: flex;
+   justify-content: center;
+
+}
+footer{
+	margin: 1.3rem 0;
+	font-size: 1.1rem;
+}

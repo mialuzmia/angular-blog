@@ -16,6 +16,7 @@
 .small-card__title h2 a{
 	padding-right: 1rem;
 	font-size: 1.3rem;
+	text-align: justify;
 }
 .small-card__division{
 	margin: 1rem 0;
